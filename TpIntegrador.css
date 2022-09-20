@@ -1,0 +1,53 @@
+
+#carouseltp1 {
+
+    background-color: black;
+    
+
+}
+#imagen1 {
+    opacity: 0.6;
+    background-color: black;
+    color: black;
+}
+
+#carocarouselExampleControls {
+    background-color: black;
+    color: black;
+}
+
+#textoSobreCarrusel {
+position: absolute;
+top: 350px;
+left: 170px;
+color: white;
+padding-left: 650px;
+padding-bottom: 10000px;
+text-align: right;
+font-size: 20px;
+}
+
+#TextoPresentativo {
+    text-align: center;
+    justify-content: center;
+
+}
+#cardText {
+    height: 525px;
+
+}
+#form {
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+u.dotted{
+    border-bottom: 3px dotted #999;
+    text-decoration: none; 
+  }
+    
+.container-fluid {
+    padding: 0px;
+}
+
