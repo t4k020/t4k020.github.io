@@ -69,5 +69,10 @@ footer {
     background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
     background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
     background: linear-gradient(to left, #1c618e 0%, #195c88 50%, #0a293d 100%);
-    height: auto;
 }
+.wrapper {
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Estilos para el contenido de la página */

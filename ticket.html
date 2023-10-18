@@ -7,7 +7,6 @@
     <title>Conf Bs As</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="TpIntegrador.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Ticket</title>
 
   </head>
@@ -15,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="calculoScript.js"></script>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+        <div class="container ">
             
             <a class="navbar-brand" href="#">
                 <img src="codoacodo.png" alt="Logo" width="80" height="50" class="d-inline-block align-text-mid">
@@ -85,6 +84,7 @@
 
         <div class="row g-2">
          
+          <form action="Ticket_contact.php" method="post" role="form" class="php-email-form">
           <div class="col">
             <input type="text" class="form-control" aria-label="Nombre" placeholder="Nombre">
           </div>
@@ -98,6 +98,9 @@
             Cantidad
             <input type="text" name="password" class="form-control" aria-label="Nombre" id="Tickets" value="3" placeholder="Cantidad">
           </div>
+          </form>
+
+
           <div class="col">
             Categoria
             <select class="form-select" id="Categoria" aria-label="Default select example">
@@ -127,21 +130,20 @@
 
     
 
- <br><br><br><br><br>
 
  <div class="container-fluid" style="background-color:rgb(44, 74, 106)">
-    <footer class="y-4 my-3">
-      <ul class="nav justify-content-center border-bottom  ">
-        <li class="nav-item"><a href="#" class="nav-link mx-4 text-white col-md-auto ">Preguntas <br> Frecuentes </a></li>
-        <li class="nav-item"><a href="#" class="nav-link mx-4 text-white col-md-auto">Contáctanos</a></li>
-        <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Prensa</a></li>
-        <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Conferencias</a></li>
-        <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Términos y <br> condiciones</a></li>
-        <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Privacidad</a></li>
-        <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Estudiantes</a></li>
-      </ul>
-    </footer>
-   </div>
+  <footer class="y-4 mt-3 mb-0  py-3 ">
+    <ul class="nav pb-0 justify-content-center ">
+      <li class="nav-item"><a href="#" class="nav-link mx-4 text-white col-md-auto ">Preguntas <br> Frecuentes </a></li>
+      <li class="nav-item"><a href="#" class="nav-link mx-4 text-white col-md-auto">Contáctanos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Prensa</a></li>
+      <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Conferencias</a></li>
+      <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Términos y <br> condiciones</a></li>
+      <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Privacidad</a></li>
+      <li class="nav-item"><a href="#" class="nav-link mx-4 text-white">Estudiantes</a></li>
+    </ul>
+  </footer>
+  </div>
 
 
   </body>
